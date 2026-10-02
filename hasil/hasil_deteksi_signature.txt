@@ -1,0 +1,43 @@
+======================================================================================================================================================
+HASIL DETEKSI KEBERADAAN TANDA TANGAN KEPALA SEKOLAH
+======================================================================================================================================================
+
+No  Nama File                                    Label     Foreground     Total Pixel    FG (%)    Hasil Deteksi         Status    
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1   01_HighQuality_Enhanced (2)(1).jpg           PRESENT   19799          285868         6.93      SIGNATURE PRESENT     BENAR     
+2   02_LowContrast (2).jpg                       PRESENT   12259          329700         3.72      SIGNATURE PRESENT     BENAR     
+3   03_Blurred (2).jpg                           PRESENT   10326          332010         3.11      SIGNATURE PRESENT     BENAR     
+4   04_HighNoise (2).jpg                         PRESENT   17157          321470         5.34      SIGNATURE PRESENT     BENAR     
+5   05_LowResolution_Upsampled (2).jpg           PRESENT   17657          320330         5.51      SIGNATURE PRESENT     BENAR     
+6   06_Faded_Underexposed (2).jpg                PRESENT   9199           280878         3.28      SIGNATURE PRESENT     BENAR     
+7   07_ColorShift_WarmTint (2).jpg               PRESENT   25332          360528         7.03      SIGNATURE PRESENT     BENAR     
+8   08_JPEGCompression_Artifacts (2).jpg         PRESENT   30108          390885         7.70      SIGNATURE PRESENT     BENAR     
+9   09_CombinedDegradation (2).jpg               PRESENT   12648          359194         3.52      SIGNATURE PRESENT     BENAR     
+10  01_HighQuality_Enhanced (2)(1).jpg           ABSENT    1817           285868         0.64      SIGNATURE ABSENT      BENAR     
+11  02_LowContrast (2).jpg                       ABSENT    991            329700         0.30      SIGNATURE ABSENT      BENAR     
+12  03_Blurred (2).jpg                           ABSENT    3531           332010         1.06      SIGNATURE ABSENT      BENAR     
+13  04_HighNoise (2).jpg                         ABSENT    2488           321470         0.77      SIGNATURE ABSENT      BENAR     
+14  05_LowResolution_Upsampled (2).jpg           ABSENT    2983           320330         0.93      SIGNATURE ABSENT      BENAR     
+15  06_Faded_Underexposed (2).jpg                ABSENT    745            280878         0.27      SIGNATURE ABSENT      BENAR     
+16  07_ColorShift_WarmTint (2).jpg               ABSENT    2212           360528         0.61      SIGNATURE ABSENT      BENAR     
+17  08_JPEGCompression_Artifacts (2).jpg         ABSENT    2006           390885         0.51      SIGNATURE ABSENT      BENAR     
+18  09_CombinedDegradation (2).jpg               ABSENT    1397           359194         0.39      SIGNATURE ABSENT      BENAR     
+
+======================================================================================================================================================
+KETERANGAN
+======================================================================================================================================================
+PRESENT = gambar yang memiliki tanda tangan.
+ABSENT = gambar yang tidak memiliki tanda tangan.
+Foreground Pixel = jumlah piksel foreground setelah segmentasi.
+Foreground (%) = persentase foreground terhadap seluruh piksel.
+Batas deteksi = 2.00%.
+Jika Foreground (%) >= batas, hasil = SIGNATURE PRESENT.
+Jika Foreground (%) < batas, hasil = SIGNATURE ABSENT.
+
+======================================================================================================================================================
+EVALUASI SISTEM
+======================================================================================================================================================
+Total data       : 18
+Prediksi benar   : 18
+Prediksi salah   : 0
+Akurasi          : 100.00%
